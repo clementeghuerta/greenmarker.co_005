@@ -1,0 +1,327 @@
+/*
+* {
+  border: 1px solid black;
+}
+*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #000; 
+}
+.logo {
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.0em;
+  font-weight: 800;
+}
+.top15 {
+  position: relative;
+  top: 15px;
+}
+.top25 {
+  position: relative;
+  top: 25px;
+}
+.top150 {
+
+  margin-top: 150px;
+}
+.margin-top120 {
+margin-top: 120px;
+}
+/* BEGINNING OF HEADER PRESETS */
+h1, h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 5em;
+  line-height: 1.0em;
+  font-weight: 800;
+  color: #fff;  
+}
+h2 {
+  font-size: 3em;
+
+}
+section h2 {
+  height: 80px;
+  padding-top: 10px;
+}
+h3 {
+  font-size: 1.5em;
+}
+/* END OF HEADER PRESETS */
+
+/* BEGINNING OF SPACING PRESETS */
+.center {
+  text-align: center;
+}
+.no-pad {
+  padding: 0px;
+}
+.no-marg {
+  margin: 0px;
+}
+/* END OF SPACING PRESETS */
+
+/* BEGINNING OF FONT PRESETS */
+.caps {
+  text-transform: uppercase;
+}
+/* END OF FONT PRESETS */
+
+/* BEGINNING OF COLOR PRESETS */
+.black {
+  color: #000000;
+}
+.white {
+  color: #ffffff;
+}
+.orange {
+  color: orange;
+}
+.backfade {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.backblack {
+  background-color: #000000;
+}
+/* END OF COLOR PRESETS */
+
+/* BEGINNING OF NAVIGATION STYLING */
+.top-bar-left a {
+  font-size: .8em;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.navigation a:link, a:visited{
+  color: #ffffff;
+}
+.navigation a:hover {
+  color: orange;
+}
+a:link:active, a:visited:active {
+  color: #b35900;
+}
+/* END OF NAVIGATION STYLING */
+
+/* [][][] BEGINNING OF HOME PAGE [][][] */
+
+/* BEGINNING OF Chili STYLING */
+.chili {
+  height: 10px;
+
+}
+/* END OF Chili STYLING */
+
+/* BEGINNING OF CONTACT WIDGET STYLING */
+.contact div {
+  height: 400px;
+}
+.contact a {
+  font-size: 1.4em;
+  padding: 20px;
+
+
+}
+.contact img {
+  margin-top: 5px;
+}
+/* END OF CONTACT WIDGET STYLING */
+
+/* BEGINNING OF SPECIALS STYLING */
+.specials figure {
+  height: 600px;
+}
+
+.specials figcaption p {
+  padding: 30px;
+  font-size: 1em;
+
+  font-weight: bold;
+}
+/* END OF SPECIALS STYLING */
+
+/* BEGINNING OF REVIEWS STYLING */
+.reviews div {
+  height: 320px;
+  padding-top: 20px;
+  margin-top: 200px;
+}
+.reviews h3 {
+  font-family: 'Satisfy', cursive;
+}
+.reviews p {
+  padding: 20px;
+  font-size: 1.1em;
+
+  font-weight: bold;
+}
+.reviews a:hover {
+  color: #FF0000;
+}
+/* END OF REVIEWS STYLING */
+/* [][][] END OF HOMEPAGE [][][] */
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* [][][] BEGINNING OF MENU STYLING [][][] */
+.dishes {
+  text-align: center;
+}
+.dishes em {
+  font-size: 1.5em;
+
+  font-style: normal;
+  font-weight: bold;
+}
+.detail {
+  font-size: 0.8em;
+}
+.menu_400 {
+  height: 400px;
+}
+.menu_800 {
+  height: 800px;
+}
+.menu_1000 {
+  height: 1000px;
+}
+.the_menu {
+  list-style: none;
+}
+.menu_subtitle {
+	font-size: 2.5em;
+
+	text-align: center;
+
+}
+/* [][][] END OF MENU STYLING [][][] */
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* [][][] BEGINNING OF ABOUT STYLING [][][] */
+.caros {
+	height: 250px;
+}
+.about figcaption h2 {
+
+font-size: 2em;
+}
+.about figcaption p {
+
+  font-size: 1.0em;
+  word-spacing: 2px;
+  padding: 20px;
+  text-align: justify;
+  font-weight: bold;
+}
+/* [][][] END OF ABOUT STYLING [][][] */
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* BEGINNING OF FOOTER STYLING */
+.social {
+  padding-top: 20px;
+}
+footer {
+
+}
+footer p {
+  padding-top: 20px;
+
+}
+/* END OF FOOTER STYLING */
+
+/* BEGINNING OF TABLET FORMATTING */
+@media only screen and (min-width : 640px) {
+
+  body{
+  font-family: 'Open Sans', sans-serif;
+  background:url("../images/a.jpg"); 
+  background: no-repeat; 
+  background-size: 100%;
+  background-attachment:fixed; 
+}
+  .navigation a {
+    font-size: 1.0em;
+  }
+  .spacer2 {
+    font-family: 'Kanit', sans-serif;
+    height: 250px;
+
+  }
+  .contact div {
+    height: 300px;
+  }
+  .specials figure img {
+    margin: 100px 0 0 0;
+  }
+  .specials figcaption p {
+    font-size: 1em;
+    padding: 50px;
+  }
+  .reviews div {
+    height: 500px;
+  }
+  .reviews h3 {
+    font-size: 2.2em;
+  }
+  .reviews p {
+    font-size: 1.2em;
+  }
+  footer p {
+    font-size: 1.2em;
+  }
+  .about figure img {
+    margin-top: 45%;
+  }
+  .about figcaption h2 {
+  font-size: 1em;
+  padding-top: 10px;
+  }
+  
+/* END OF TABLET FORMATTING */
+
+/* BEGINING OF DESKTOP FORMATTING */
+@media only screen and (min-width : 992px) {
+  .spacer2 {
+    font-family: 'Kanit', sans-serif;
+    height: 250px;
+ 
+  }
+body{
+    background-image: url("../images/a.jpg");
+    background-size: 100%;
+  }
+
+  .contact div {
+    height: 200px;
+  }
+  .specials figure img {
+    margin: 10px 0 0 0;
+  }
+  .specials figcaption p {
+    font-size: 1em;
+    padding: 50px;
+  }
+  .reviews div {
+    height: 400px;
+  }
+  .reviews h3 {
+    font-size: 2.2em;
+  }
+  .reviews p {
+    font-size: 1.5em;
+  }
+  footer p {
+    font-size: 1.2em;
+  }
+  .about figure img {
+    margin-top: 15%;
+  }
+  .about figcaption h2 {
+  font-size: 1.0em;
+  padding-top: 10px;
+  }
+  .about figcaption p {
+    font-size: 1.0em;
+  }
+/* END OF DESKTOP FORMATTING */
